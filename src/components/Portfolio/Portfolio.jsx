@@ -13,18 +13,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
-        <article className='portfolio__item'>
-           <div className='portfolio__item-image'>
-           <img src={IMG1} alt=' image1'/>
-           </div>
-           <h3>React_Portfolio Website</h3>
-           <div className='portfolio__item-cta'>
-            <a href='https://github.com/snowflakericky/React_portfolio.git'className='btn' target='_blank' rel='noreferrer'>Github</a>
-           <a href='https://main--seniordeverick.netlify.app/' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
-           </div>
-        </article>
-
-        <article className='portfolio__item'>
+               <article className='portfolio__item'>
            <div className='portfolio__item-image'>
            <img src={IMG2} alt=' image2'/>
            </div>
